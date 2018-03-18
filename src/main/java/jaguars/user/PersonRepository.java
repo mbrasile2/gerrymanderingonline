@@ -2,6 +2,5 @@ package jaguars.user;
 
 import org.springframework.data.repository.CrudRepository;
 
-public interface UserRepository extends CrudRepository<User, String> {
-
+public interface PersonRepository extends CrudRepository<Person, String> {
 }
